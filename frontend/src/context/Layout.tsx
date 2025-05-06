@@ -1,3 +1,4 @@
+import { EtheriumBalance } from "./EtheriumBalance";
 import { NavBar } from "./NavBar/NavBar";
 import Head from "next/head";
 
@@ -9,6 +10,7 @@ const Layout: React.FC = ({ children }) => (
 		</Head>
 		<NavBar />
 		<main>{children}</main>
+		<EtheriumBalance />
 	</>
 );
 
